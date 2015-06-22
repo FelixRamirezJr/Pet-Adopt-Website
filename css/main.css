@@ -1,0 +1,271 @@
+
+/* 
+ write your css here
+ Link for colors used in this example http://www.color-hex.com/color-palette/5762
+*/
+
+body {
+    /*padding-bottom: 25px;*/
+    padding-top: 60px;
+    height:100%;
+    /*font-family: 'Comic Sans MS';*/
+    /*font-size: 20px;*/
+    color: #34495e;
+}
+
+.navbar .brand {
+    max-height: 50px;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #494f9c;
+}
+
+a > img{
+    border-radius: 50%;
+}
+h1, h2, h3, h4, h5{
+    text-align: center;
+    /*color: #1736FF;
+    background-color: #EA9DEE;*/
+}
+
+.jumbotron h1{
+    color:#494f9c;
+}
+
+.container p {
+    color: #212438;
+}
+
+.jumbotron { 
+    border-radius: 6px;
+    min-height: 375px; 
+}
+
+.jumbotron ul{
+    text-align: center;
+
+}
+.jumbotron ul li{
+    display: inline;
+
+}
+.jumbotron ul li a{
+    display: inline;
+    width: 60px;
+}
+
+
+
+form {
+    /*display: block;
+    text-align: center;
+    margin: 0 auto;*/
+}
+form {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+form input[type=file] {
+    display: inline;
+}
+
+
+
+
+.footer{
+    background:#f5f5f5;
+    width:100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+}
+
+footer{
+    margin-top: 0px;
+    background-color:#f5f5f5;
+}
+
+
+/*#user_registration_form {
+  width: 300px;
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+  padding: 10px;
+  border-radius: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 75px;
+  display: block;
+  background-color: white;
+}*/
+
+
+
+.footer .copy{
+    padding-right: 25px 0px;
+    text-align: center;
+}
+.footer > .container > .navbar > .list-inline{
+    margin-top: 20px;
+    padding-top: 5px; 
+    color: #000066;
+    text-align: center;
+    list-style: none;
+}
+
+
+/*Media queries
+@media (min-width: 992px){
+.col-md-6 {  
+    width: -70%;
+    }
+  width: 50%; 
+}
+*/
+
+// header
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+    width:100%;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+    border: 5px solid #CCC;
+    border-radius: 10px;
+    height:450px;
+    text-align: center;
+    padding: 0;
+    background-color: #284c79;
+    color: rgb(136, 172, 217);
+}
+
+/*hr.smoothy {
+    padding: 0;
+    border: none;
+    border-top: thick double #000099;
+    color: #000099;
+}*/
+
+hr.smoothy {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px 0 0 0;
+    border-radius: 20px;
+}
+hr.smoothy:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 4px 0;
+    border-radius: 20px;
+}
+hr.smoothy:after { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -38.5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 2px 0;
+}
+
+hr.huggerTop {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px 0 0 0;
+    border-radius: 20px;
+}
+hr.huggerBottom {
+    height: 30px;
+    margin-top: -20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 4px 0;
+    border-radius: 20px;
+}
+/*
+hr.hugger2 {
+    width: 90%;
+    height: 450px;
+    margin-top: -495px;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px 8px 0 0;
+    //border-radius: 20px;
+}
+hr.hugger3 {;
+    width: 95%;
+    height: 405px;
+    margin-top: -900px;
+    border-style: solid;
+    border-color: black;
+    border-width: 8px 8px 0 0;
+    //border-radius: 20px;
+}
+*/
+//css tricks

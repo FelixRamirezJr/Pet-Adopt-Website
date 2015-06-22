@@ -1,0 +1,219 @@
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height{
+    /*background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;*/
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height{
+    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+    padding-top: 75px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+
+/* index.php CAROUSEL BEGIN
+-------------------------------------------------- */
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+
+.carousel-control {
+    height: 80px;
+    margin-top: 300px;
+    /*font-size: 120px;*/
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 100%;
+}
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    /*max-width: 550px;*/
+    padding: 0 20px;
+    margin:0 auto;
+    margin-top: 200px;
+    text-align:center;
+}
+.carousel-caption h1{
+    line-height: 1.25;
+    color: #fff;
+    margin-top: -150px;
+    padding-top: -30px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+
+.carousel-caption .lead {
+    /*line-height: 1.25;*/
+    color:#ecf0f1;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    padding-top: 155px;
+}
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+
+.carousel-caption .buttons{
+    padding-top: 70px;
+
+}
+
+
+.buttons a {
+    font-size:20px;
+}
+
+
+a#padding{
+    margin-right:100px;
+    margin-left:100px;
+
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+    .carousel .item {
+        height: 500px;
+    }
+    .carousel img {
+        width: auto;
+        height: 500px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+
+    .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .carousel .container {
+
+    }
+    .carousel .item {
+        height: 300px;
+    }
+    .carousel img {
+        height: 300px;
+    }
+    .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+        font-size: 18px;
+    }
+}
+/* END OF CAROUSEL
+-------------------------------------------------- */
+
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+a > img{
+    border-radius: 50%;
+}
+
+.h1 {
+    text-align: center;
+}
+
+img.displayed{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.4;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
